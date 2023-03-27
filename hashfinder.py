@@ -1,6 +1,8 @@
 from flask import Flask, request, render_template
 import hashlib
 
+# VERSION 1.0
+
 app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
